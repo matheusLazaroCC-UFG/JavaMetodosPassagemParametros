@@ -1,5 +1,3 @@
-# JavaMetodosPassagemParametros
-
 # IMPLEMENTAÇÃO EM JAVA
  * Métodos de passagem de parâmetros
  * Enunciado:
