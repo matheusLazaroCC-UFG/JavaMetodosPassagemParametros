@@ -32,8 +32,22 @@
                 linguagem não tem ponteiros nem o tipo de referências como o de C++.
                     Em Java, uma variável de referência pode apontar apenas para um objeto,
                 não para um valor escalar.
+                
+                Resultados obtidos com a solução alternativa:
+                    Valores originais:
+                        value = 2
+                        list = [1, 3, 5, 7, 9]
+                    Passagem 1 (swap de value = 2 com list[0] = 1)
+                        value = 1
+                        list = [2, 3, 5, 7, 9]
+                    Passagem 2:(swap de list[0] = 2 com list[1] = 3)
+                        value = 1
+                        list = [3, 2, 5, 7, 9]
+                    Passagem 3:(swap de value = 1 com list[value] = list[1] = 2)
+                        value = 2
+                        list = [3, 1, 5, 7, 9]
 
- c. Passados por valor-resultado.
+            c. Passados por valor-resultado.
 
 void swap(int a, int b) {
     int temp;
