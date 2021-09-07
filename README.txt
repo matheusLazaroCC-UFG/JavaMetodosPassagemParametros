@@ -46,6 +46,7 @@
                         list = [3, 1, 5, 7, 9]
 
             c. Passados por valor-resultado.
+            Java não permite este tipo de implementação.
 
 void swap(int a, int b) {
     int temp;
@@ -64,4 +65,4 @@ void main() {
 }
 
 2. Codifique e execute, em sua linguagem escolhida, um programa que produza comportamento diferente dependendo de a passagem de seu parâmetro ser por referência ou por valor-resultado.
-    Seguindo as observações descritas no Exercício 1, Java não permite a passagem por referência para tipos primitivos.
+    Seguindo as observações descritas no Exercício 1, Java não permite a passagem por referência para tipos primitivos. Java não permite passagem por valor-resultado.
