@@ -62,3 +62,6 @@ void main() {
     swap(list[0], list[1]);
     swap(value, list[value]);
 }
+
+2. Codifique e execute, em sua linguagem escolhida, um programa que produza comportamento diferente dependendo de a passagem de seu parâmetro ser por referência ou por valor-resultado.
+    Seguindo as observações descritas no Exercício 1, Java não permite a passagem por referência para tipos primitivos.
